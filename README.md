@@ -20,6 +20,6 @@ Liri can take in one of the following four commands:
 Each command will need to include the call to node, file name, appropriate command (from list appove) and an argument if applicable. IF you are searching a specific artist, song or movie be sure to include those as the argument. 
 Ex - node liri.js concert-this <artist/band name here>
 
-**[Demo](https://drive.google.com/file/d/1VJHQ3Z6VIfjJ82s54wb5RKmsNBhYrFhe/view*)*
+**[Demo](https://drive.google.com/file/d/1VJHQ3Z6VIfjJ82s54wb5RKmsNBhYrFhe/view?usp=sharing)**
 
 **[GitHub Repo](https://github.com/nellie-geek/liri-node-app)** 
