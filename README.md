@@ -1,26 +1,25 @@
 # liri-node-app
 HW-10 Node.js
 
+LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
+LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies. Utilizing 
+  * Axios, 
+   * for OMDB API and the Bands In Town API
+  * Moment
+  * DotEnv(.env)
+  
+Note: associated keys are not inldued so you will need to creat your own file and include all necessary API keys
 
-Commands required - concert-this/ spotify-this-song/movie-this/do-what-it-says
+**Application**
 
-node liri.js concert-this <artist/band name here>: Venue Name/Venue location/Event Date
+Liri can take in one of the following four commands: 
+    ~ concert-this
+    ~ spotify-this-song
+    ~ movie-this
+    ~ do-what-it-says
+Each command will need to include the call to node, file name, appropriate command (from list appove) and an argument if applicable. IF you are searching a specific artist, song or movie be sure to include those as the argument. 
+Ex - node liri.js concert-this <artist/band name here>
 
-node liri.js spotify-this-song '<song name here>': artist/song name/preview link/album
-if no song entered default to the sign by Ace of Base
+**[Demo](https://drive.google.com/file/d/1VJHQ3Z6VIfjJ82s54wb5RKmsNBhYrFhe/view?usp=sharing)**
 
-node liri.js movie-this '<movie name here>': Title/Year out/IMDB rating/rotten tomato rating/country produced/language/plot/actors
-If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
-
-
-If you haven't watched "Mr. Nobody," then you should: http://www.imdb.com/title/tt0485947/
-
-It's on Netflix!
-
-node liri.js do-what-it-says
-
-Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
-
-
-It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt.
-Edit the text in random.txt to test out the feature for movie-this and concert-this.
+**[GitHub Repo](https://github.com/nellie-geek/liri-node-app)** 
